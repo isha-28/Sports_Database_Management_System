@@ -1,0 +1,13 @@
+input[type=button]:hover {
+  background-color: #2E2E2E;
+  -webkit-box-shadow: 0 10px 30px 0 black;
+  box-shadow: 0 10px 30px 0 black;
+}
+
+input[type=button]:active{
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
